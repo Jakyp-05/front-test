@@ -1,0 +1,151 @@
+.footer {
+  background-color: #d1d3d5;
+  height: 355px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 200px;
+  padding-top: 79px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+.footer__input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 16px;
+}
+
+.footer__input .input-footer {
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.07px;
+  color: #b3b3b3;
+  display: flex;
+  align-items: center;
+  column-gap: 17px;
+}
+
+.footer__input .input-footer::placeholder {
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.07px;
+  color: #b3b3b3;
+}
+
+.footer__button {
+  width: 178px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.footer__button p {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #1F1F1F;
+  display: flex;
+  align-items: center;
+}
+
+.footer__button p span {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  background-color: #03927e;
+  border-radius: 50px;
+  color: white;
+}
+
+.footer__menu {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 60px;
+}
+
+.menu__first {
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+}
+
+.menu__first nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+.menu__first nav ul li a {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.59px;
+  color: #1f1f1f;
+}
+
+.menu__even {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 22px;
+}
+
+.menu__even__link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+.menu__even__link a {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #1f1f1f;
+}
+
+.menu__last {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 22px;
+}
+
+.menu__last__network {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 15px;
+}
+
+.menu__last__network a {
+  width: 40px;
+  height: 40px;
+  border-radius: 500px;
+  border: 1px solid #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

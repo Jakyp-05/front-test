@@ -1,0 +1,62 @@
+.review-2 {
+  display: flex;
+}
+
+.review-2 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-2__content {
+  width: 779px;
+}
+
+.review-2__content h2 {
+  font-family: Times New Roman;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: left;
+  color: #231f21;
+  text-transform: uppercase;
+}
+
+.review-2__content p {
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #231f21;
+}
+
+.review-2__content__text {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 30px;
+}
+
+.review-line-2 {
+  height: 38px;
+  border: 2px solid #03927e;
+}
+
+.review-2__content strong {
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20px;
+  text-align: left;
+  color: #231f21;
+}
+
+.review-2__image {
+  width: 770px;
+}
+
+.review-2__image img {
+  width: 100%;
+  object-fit: contain;
+}
